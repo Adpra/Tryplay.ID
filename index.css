@@ -2,6 +2,13 @@
     padding: 0;
     margin: 0;
 }
+body
+{
+    background-color: #1e1e1e;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* HEADER BUDI */
 
 .a{
     color: inherit;
@@ -9,12 +16,7 @@
     
 }
 
-.header{
-    background: #1e1e1e ; 
-    font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
-    
-}
+
 
 .gambarlogo{
     width: 150px;
@@ -35,7 +37,6 @@
     height: 280px ;
     padding: 5px 0;
     box-shadow: 5px 5px rgba(31, 31, 32, 0.795);
-    opacity:;
     
 }
 .slider{
@@ -70,7 +71,6 @@
     width: 250px;
     height: 100px;
     box-shadow: 5px 5px rgba(31, 31, 32, 0.795);
-    opacity: ;
 }
 
 .carousel-item{
@@ -95,40 +95,163 @@ margin-right: 150px;
     margin-left:1150px;
     margin-top: 35px;
 }
+/*HEADER BUDI END*/
+  
+h2 {
+    text-align: center;
+    color: ghostwhite;
+}
+.bodylist
+{
+    width: 800px;
+    margin: 35px auto;
+    background: linear-gradient(#4a4aa8c7, #262729da) ;
+    padding: 20px;
+    padding-left: 2px;
+    padding-right: 20px;
+    overflow: hidden;
+    border: 2px solid rgb(255, 255, 255);
+}
 
+.bodylist h2
+{
+    color: black;
+    border-bottom: 1px solid black;
+    margin: 5px;
+    margin-bottom: 13px;
+}
+  
+.list-produk
+{
+    border: 0px dotted white;
+    padding: 10px;
+    float: right;
+    width: 200px;
+    margin: 20px;
+margin-right: 30px;
+}
+  
+.list-produk:hover
+{
+    transition-duration: 200ms;
+    box-shadow:inset 10px 5px 25px 5px rgb(224, 189, 73), 5px 5px 12px 2px rgb(241, 238, 4);
+    position: relative;
+    filter: brightness(130%);
+    -o-transform: scale(1.09) ;     
+    -moz-transform: scale(1.09) ;   
+    -webkit-transform: scale(1.09);
+}
+  
+.list-produk img
+{
+    border: ghostwhite;
+    width: 100%;
+    height: 180px;
+    display: block;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px rgba(229, 229, 236, 0.795);
+    -moz-transition:all .8s ease-in-out;         
+ -ms-transition:all .8s ease-in-out;          
+ -o-transition:all .8s ease-in-out;           
+ -webkit-transition:all .8s ease-in-out;      
+ transition:all .8s ease-in-out;    
+    
+}
+  
+.list-produk h4
+{
+    color: white;
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.list-produk h5 {
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+.body-voucher {
+    width: 800px;
+    margin: 60px auto;
+    background: linear-gradient(#262729da,#4a4aa8c7) ;
+    padding: 20px;
+    padding-left: 2px;
+    padding-right: 20px;
+    overflow: hidden;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+.list-voucher {
+    padding: 10px;
+    float: right;
+    width: 300px;
+    margin: 34px;
+    border: 2px solid rgb(243, 211, 31);
+ 
+}
+.list-voucher:hover {
+    transition-duration: 200ms;
+    box-shadow:inset 10px 5px 25px 5px rgb(245, 241, 241), 5px 5px 12px 2px rgb(247, 244, 244);
+    position: relative;
+    filter:  brightness(130%);
+    -o-transform: scale(1.09) ;     
+    -moz-transform: scale(1.09) ;   
+    -webkit-transform: scale(1.09);
+}
+.list-voucher h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.list-voucher img {
+    border: ghostwhite;
+    width: 200px;
+    height: 180px;
+    display: block;
+    padding: 15px;
+    padding-left: 30px;
+    margin-left: 35px;
+}
+
+/*MEDSOS BUDI*/
 .medsos{
-  text-align: center;
-  padding: 30px 5px;
-}
-.warnatulisan {
-    color: white;
-}
-.warnatulisan a{
-    color: white;
-}
+    text-align: center;
+    padding: 30px 5px;
+  }
+  .warnatulisan {
+      color: white;
+  }
+  .warnatulisan a{
+      color: white;
+  }
+  
+  .gambarmedsos1{
+      width: 50px;
+      height: 50px;
+      padding: 10px 10px;
+  }
+  .gambarmedsos2{
+      width: 50px;
+      height: 50px;
+      padding: 10px 10px;
+      margin-left: 70px;
+  }
+  .gambarmedsos3{
+      width: 50px;
+      height: 50px;
+      padding: 10px 7px;
+      margin-left: 40px;
+  }
+  .medsos ul li a:hover{
+      text-decoration: none;
+      color: white;
+  }
+/*MEDSOS END*/
 
-.gambarmedsos1{
-    width: 50px;
-    height: 50px;
-    padding: 10px 10px;
-}
-.gambarmedsos2{
-    width: 50px;
-    height: 50px;
-    padding: 10px 10px;
-    margin-left: 70px;
-}
-.gambarmedsos3{
-    width: 50px;
-    height: 50px;
-    padding: 10px 7px;
-    margin-left: 40px;
-}
-.medsos ul li a:hover{
-    text-decoration: none;
-    color: white;
-}
-
+/* FOOTER*/
 .footer{
     background:black;
     width: 100%;
@@ -149,3 +272,6 @@ margin-right: 150px;
     margin: 10px 0;
     margin-right: 15px;
 }
+
+
+  
