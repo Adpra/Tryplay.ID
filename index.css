@@ -33,15 +33,23 @@ body
 }
 
 .gambarslide{
-    width:700px;
+    width:900px;
     height: 280px ;
     padding: 5px 0;
-    box-shadow: 5px 5px rgba(31, 31, 32, 0.795);
+   
+    
     
 }
 .slider{
-    background:#24abff ;
+    background:linear-gradient(#1070ecc7, #262729da) ;
     height: 400px;
+    overflow: hidden;
+    width: 1200px;
+    margin: 35px auto;
+    padding: 20px;
+    padding-left: 2px;
+    padding-right: 20px;
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .navbar ul li {
@@ -62,7 +70,7 @@ body
 .navbar { 
    text-align: center;
    margin-top: 30px;
-   margin-left: 380px;
+   margin-left: 390px;
    
 }
 
@@ -74,26 +82,26 @@ body
 }
 
 .carousel-item{
-    padding-left: 300px;
+    padding-left: 150px;
 }
 
 .carousel-control-next{
-margin-right: 150px;
+margin-right: 5px ;
 }
 .carousel-control-prev{
-    margin-left:170px ;
+    margin-left:25px;
 }
 .active1 .gambar2{
     margin-left:650px;
-    margin-top: 35px;
+    margin-top: 30px;
 }
 .active2 .gambar2{
     margin-left:900px;
-    margin-top: 35px;
+    margin-top: 30px;
 }
 .active3 .gambar2{
     margin-left:1150px;
-    margin-top: 35px;
+    margin-top: 30px;
 }
 /*HEADER BUDI END*/
   
@@ -105,12 +113,13 @@ h2 {
 {
     width: 800px;
     margin: 35px auto;
-    background: linear-gradient(#4a4aa8c7, #262729da) ;
+    background: linear-gradient(#262729da, #083775c7) ;
     padding: 20px;
     padding-left: 2px;
     padding-right: 20px;
     overflow: hidden;
     border: 2px solid rgb(255, 255, 255);
+    
 }
 
 .bodylist h2
@@ -175,7 +184,7 @@ margin-right: 30px;
 .body-voucher {
     width: 800px;
     margin: 60px auto;
-    background: linear-gradient(#262729da,#4a4aa8c7) ;
+    background: linear-gradient(#262729da,#022b61c7) ;
     padding: 20px;
     padding-left: 2px;
     padding-right: 20px;
@@ -237,13 +246,13 @@ margin-right: 30px;
       width: 50px;
       height: 50px;
       padding: 10px 10px;
-      margin-left: 70px;
+      margin-left: 55px;
   }
   .gambarmedsos3{
       width: 50px;
       height: 50px;
       padding: 10px 7px;
-      margin-left: 40px;
+      margin-left: 35px;
   }
   .medsos ul li a:hover{
       text-decoration: none;
@@ -255,13 +264,13 @@ margin-right: 30px;
 .footer{
     background:black;
     width: 100%;
-    height: 50px;
+    height: 60px;
    
 }
 .warnatulisanfooter {
     color: white;
     float: left;
-    padding: 15px 30px;
+    padding: 20px 30px;
 }
 
 
@@ -274,4 +283,92 @@ margin-right: 30px;
 }
 
 
+.headers{
+    font-size: 22px;
+    text-align: center;
+    line-height: 70px;
+    background: rgb(36, 35, 35);
+    user-select: none;
+    
+}
+.headers a{
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar{
+    position: fixed;
+    left: -250px;
+width: 200px;
+height: 100%;
+background: rgb(22, 21, 21);
+color: white;
+transition: all .5s ease;
+
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    padding-left: 40px;
+    box-sizing: border-box ;
+    border-top: 1px solid rgb(36, 35, 35) ;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    transition: .4s;
+    color: white;
+}
+.sidebar ul li:hover a{
+    padding-left: 50px;
+    color: white;
+}
+#check{
+    display: none;
+
+}
+label #btn,label #cancel{
+    position: absolute;
+
+}
+label #btn{
+    left: 97%;
+    top: 12px;
+    font-size: 15px;
+    color: white;
+    transition: all .5s;
+
+}
+label #cancel{
+    z-index: 1111;
+    left: -150px;
+    top: 120px;
+    font-size: 20px;
+    color: white;
+    padding:4px 9px;
+    transition: all .5s ease; 
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel{
+    left: 150px;
+}
+
+.wa-icon {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 40px;
+    right: 300px;
+    z-index: 100;
+
+}
   
